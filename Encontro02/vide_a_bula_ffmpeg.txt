@@ -30,7 +30,7 @@ ffmpeg -i video.avi video_png/%09d.png
 ffmpeg -i video.mp4 -vf select='between(n\,x\,y)' -vsync 0 video_png/videoframe_%09d.png
 
 # fazer o video das imagens
-ffmpeg -start_number 001 -i frames%3d.png video.avi
+ffmpeg -start_number 001 -i %3d.png video.avi
 
 # cortar pedacos
 # https://video.stackexchange.com/questions/4563/how-can-i-crop-a-video-with-ffmpeg
