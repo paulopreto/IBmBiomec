@@ -139,6 +139,7 @@ if __name__ == '__main__':
     print('LaBioCoM-EEFERP-USP'.center(58))
     print('paulosantiago@usp.br'.center(58))
     print('Created on 12/04/2020 - Update on 01/06/2020'.center(58))
+    print('Como rodar:\n python kvelball.py c1.txt c2.txt c1cal.txt c2cal.txt calibrador_ref.txt nome_que_deseja_salvar'.center(58))
     print(58*'#')
     print('\n')
 
@@ -233,8 +234,6 @@ if __name__ == '__main__':
     elev = elevation * 180/pi
     
     print(f'Angles: azimuth = {azi}; elevation = {elev}')
-
-
    
     fig2 = plt.figure()
     ax2 = fig2.add_subplot(111, projection='3d') 
