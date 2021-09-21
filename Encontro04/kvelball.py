@@ -177,6 +177,7 @@ if __name__ == '__main__':
     plt.subplot(2,1,1)
     plt.grid(True)
     plt.plot(bola1[:,0],bola1[:,1],'o')
+    plt.xlabel('CAM 1 - Coordinate X')
     plt.ylabel('CAM 1 - Coordinate Y')
     resx = 2 * resolutionx
     resy = 2 * resolutiony
@@ -184,10 +185,9 @@ if __name__ == '__main__':
     
     plt.subplot(2,1,2)
     plt.plot(bola2[:,0],bola2[:,1],'o')
-    plt.xlabel('Coordinate X')
+    plt.xlabel('CAM 2 - Coordinate X')
     plt.ylabel('CAM 2 - Coordinate Y')
     plt.grid(True)
-    
     
     # Carregar arquivos de calibracao 
     datcal_c1 = np.asarray(pd.read_csv(str(sys.argv[3]), sep='\s+', header=None))
@@ -235,23 +235,7 @@ if __name__ == '__main__':
     print(f'Angles: azimuth = {azi}; elevation = {elev}')
 
 
-    plt.figure()
-    plt.subplot(2, 1, 1)
-    plt.grid(True)
-    plt.plot(bola1[:, 0],bola1[:, 1], 'o')
-    plt.xlabel('CAM 1 - Coord. X')
-    plt.ylabel('CAM 1 - Coord. Y')
-    plt.grid(True)
-    
-    resx = 2 * resolutionx
-    resy = 2 * resolutiony
-    plt.title(f'Pixels coordinates (resolution = {resx}X{resy})')
-    plt.subplot(2, 1, 2)
-    plt.plot(bola2[:, 0], bola2[:, 1], 'o')
-    plt.xlabel('CAM 2 - Coord. X')
-    plt.ylabel('CAM 2 - Coord. Y')
-    plt.grid(True)
-    
+   
     fig2 = plt.figure()
     ax2 = fig2.add_subplot(111, projection='3d') 
     ax2.plot3D(cc3d[:,0], cc3d[:,1], cc3d[:,2], 'ro', markersize=10)
