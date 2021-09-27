@@ -4,6 +4,7 @@ Created on Sat Jun 13 08:35:07 2020
 
 @author: preto
 """
+import numpy as np
 import matplotlib.pyplot as plt
 from ezc3d import c3d
 import sys
@@ -29,10 +30,24 @@ def importc3d(dat=None):
 if __name__ == '__main__':
     markers, labels, analog_data, freq3d, freqforc = importc3d(str(sys.argv[1]))
     marker01 = markers[:, 0, :]
-    marker01_z = markers[:, 0, 2]
-    # Pegar o valor do maxio em mm e nao a posicao do maximo
-    plt.plot(marker01_z)
-    plt.show()
-    
-    print(marker01_z)
+    marker01_z = markers[:, 0, 2] / 1000
+
     print(labels)
+    
+    # Selecionar o valor do maximo de marker01_z e arredondar para o valor mais proximo
+    max_marker01_z = np.round(np.max(marker01_z), 2)
+    
+
+    # Selecionar o indice do valor maximo de marker01_z
+    max_marker01_z_index = np.argmax(marker01_z)
+   
+    print(f'A altura máxima foi de: {max_marker01_z} metros')
+    print(f'O indice do valor máximo foi: {max_marker01_z_index}')
+
+    plt.plot(marker01_z)
+    plt.plot(max_marker01_z_index, max_marker01_z, 'ro')
+    # plot text with max_marker01_z and max_marker01_z_index
+    plt.text(max_marker01_z_index, max_marker01_z, f'{max_marker01_z} m')
+
+    plt.show()
+ 
