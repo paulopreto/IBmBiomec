@@ -48,6 +48,6 @@ if __name__ == '__main__':
     plt.plot(max_marker01_z_index, max_marker01_z, 'ro')
     # plot text with max_marker01_z and max_marker01_z_index
     plt.text(max_marker01_z_index, max_marker01_z, f'{max_marker01_z} m')
-
+    plt.title('Altura de salto')
     plt.show()
- 
+     
