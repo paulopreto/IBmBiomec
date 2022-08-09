@@ -1,2 +1,1 @@
-# IBmBiomec2021
-Disciplina USP de Biomecânica para Informática Biomédica 
+# Disciplina USP de Biomecânica para Informática Biomédica 
