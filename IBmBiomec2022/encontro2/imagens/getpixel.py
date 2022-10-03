@@ -10,7 +10,7 @@ import glob
 from iteration_utilities import deepflatten
 
 dir_atual = os.getcwd()
-img_dir = '/images/'
+img_dir = '/c1cal_png/'
 
 try:
     dir_images = dir_atual + img_dir
