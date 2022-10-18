@@ -37,15 +37,15 @@ mat_x_rot = [...
 % matriz de rotaçao em torno do eixo y (y fixo)
 mat_y_rot = [...
               cos(yth(i))   , 0 , sin(yth(i))
-                  0      , 1 ,    0
+                  0         , 1 ,    0
                -sin(yth(i)) , 0 , cos(yth(i))  
                                          ];
 
 % matriz de rotaçao em torno do eixo z (z fixo)
 mat_z_rot = [...
-              cos(zth(i)) , -sin(zth(i)) , 0
-             sin(zth(i)) ,   cos(zth(i)) , 0
-                 0     ,      0     , 1
+              cos(zth(i)) , -sin(zth(i))  , 0
+             sin(zth(i))  ,   cos(zth(i)) , 0
+                 0        ,      0        , 1
                                          ];
 
 % MR = (mat_z_rot * mat_y_rot) * mat_x_rot;
