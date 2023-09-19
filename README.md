@@ -1,8 +1,22 @@
 # Disciplina USP de Biomecânica para Informática Biomédica 
 
+## O sistema de referência 2D foi adotado conforme a figura abaixo
+
+![Calibrador 2D](docs/ref2d_guide.png)
+
+|     |   x   |   y   |
+|-----|-------|-------|
+| p1  | 0.000 | 0.000 |
+| p2  | 1.466 | 0.000 |
+| p3  | 0.000 | 0.450 |
+| p4  | 1.466 | 0.447 |
+| p5  | 0.000 | 0.903 |
+| p6  | 1.466 | 0.902 |
+
+
 ## O sistema de referência 3D foi adotado conforme a figura abaixo
 
-![Calibrado](docs/ref3d_guide.png)
+![Calibrador 3D](docs/ref3d_guide.png)
 
 |     |   x   |   y   |   z   |
 |-----|-------|-------|-------|
