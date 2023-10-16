@@ -1,8 +1,8 @@
 # Disciplina USP de Biomecânica para Informática Biomédica 
 
-## O sistema de referência 2D foi adotado conforme a figura abaixo
+## O sistema de referência 2D foi adotado conforme a Figura 1:
 
-![Calibrador 2D](docs/ref2d_guide.png)
+![Figura 1. Calibrador 2D.](docs/ref2d_guide.png)
 
 |     |   x   |   y   |
 |-----|-------|-------|
@@ -14,9 +14,9 @@
 | p6  | 1.466 | 0.902 |
 
 
-## O sistema de referência 3D foi adotado conforme a figura abaixo
+## O sistema de referência 3D foi adotado conforme a Figura 2:
 
-![Calibrador 3D](docs/ref3d_guide.png)
+![Figura 2. Calibrador 3D.](docs/ref3d_guide.png)
 
 |     |   x   |   y   |   z   |
 |-----|-------|-------|-------|
@@ -33,4 +33,4 @@
 | p11 | 0.781 | 1.466 | 0.902 |
 | p12 | 0.781 | 0.000 | 0.903 |
 
-* Continuar: extrair as coordenas de tela em pixel e realizar a calibração 2D
+* Continuar: extrair as coordenadas de tela em pixel para realizar a calibração 2D.
