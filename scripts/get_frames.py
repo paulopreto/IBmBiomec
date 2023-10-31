@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load and display the image
 #img = plt.imread('../frames/c1cal/c1cal.png')
-img = plt.imread('../frames/c1/000000064.png')
+img = plt.imread('../frames/c2cal/c2cal.png')
 fig, ax = plt.subplots()
 ax.imshow(img)
 
@@ -11,7 +11,7 @@ ax.imshow(img)
 
 points = plt.ginput(0, timeout=0)
 points_m = np.asarray(points)
-np.savetxt('../frames/c1/c1_fim.dat',points_m, fmt='%d', delimiter=' ')
+np.savetxt('../frames/c2cal/c2cal2rec3d.dat',points_m, fmt='%d', delimiter=' ')
 #import pdb; pdb.set_trace()
 
 print(points_m)
