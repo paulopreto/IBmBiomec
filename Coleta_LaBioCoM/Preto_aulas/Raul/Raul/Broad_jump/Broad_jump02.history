@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Broad_jump02" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2023-Nov-06 11:08:06"/>
+    <Param header="0" name="x2d" value="Broad_jump02.x2d"/>
+    <Param header="0" name="x1d" value="Broad_jump02.x1d"/>
+  </Parameters>
+
+</Trial>
