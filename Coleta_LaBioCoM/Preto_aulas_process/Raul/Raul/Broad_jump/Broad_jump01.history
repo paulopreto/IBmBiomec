@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Broad_jump01" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2023-Nov-06 11:07:33"/>
+    <Param header="0" name="x2d" value="Broad_jump01.x2d"/>
+    <Param header="0" name="x1d" value="Broad_jump01.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.12.0.131369h"/>
+      <Param header="0" name="Start Date" value="2023-Nov-07 15:19:58"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:19:58"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="371"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  Raul:head" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:16"/>
+          <Param header="0" name="Label" value="Raul:head"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:17"/>
+          <Param header="0" name="Label" value="Raul:chest"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lShoulder" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:20"/>
+          <Param header="0" name="Label" value="Raul:lShoulder"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lElbow" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:22"/>
+          <Param header="0" name="Label" value="Raul:lElbow"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:22"/>
+          <Param header="0" name="Label" value="Raul:lWrist"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rShoulder" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:23"/>
+          <Param header="0" name="Label" value="Raul:rShoulder"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rElbow" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:24"/>
+          <Param header="0" name="Label" value="Raul:rElbow"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:25"/>
+          <Param header="0" name="Label" value="Raul:rWrist"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:27"/>
+          <Param header="0" name="Label" value="Raul:lHip"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:28"/>
+          <Param header="0" name="Label" value="Raul:rHip"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rKnee" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:29"/>
+          <Param header="0" name="Label" value="Raul:rKnee"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:35"/>
+          <Param header="0" name="Label" value="Raul:lToe"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHeel" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:41"/>
+          <Param header="0" name="Label" value="Raul:lHeel"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHeel" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:43"/>
+          <Param header="0" name="Label" value="Raul:rHeel"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:44"/>
+          <Param header="0" name="Label" value="Raul:rToe"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lKnee" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:20:46"/>
+          <Param header="0" name="Label" value="Raul:lKnee"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:22:55"/>
+          <Param header="0" name="Label" value="Raul:rHip"/>
+          <Param header="0" name="Frame" value="87"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:23:10"/>
+          <Param header="0" name="Label" value="Raul:chest"/>
+          <Param header="0" name="Frame" value="138"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:23:17"/>
+          <Param header="0" name="Label" value="Raul:rHip"/>
+          <Param header="0" name="Frame" value="291"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:23:26"/>
+          <Param header="0" name="Label" value="Raul:lHip"/>
+          <Param header="0" name="Frame" value="291"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:23:30"/>
+          <Param header="0" name="Label" value="Raul:lToe"/>
+          <Param header="0" name="Frame" value="291"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:23:34"/>
+          <Param header="0" name="Label" value="Raul:rToe"/>
+          <Param header="0" name="Frame" value="291"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:24:26"/>
+          <Param header="0" name="Label" value="Raul:lHip"/>
+          <Param header="0" name="Frame" value="143"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:25:47"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="39"/>
+          <Param header="0" name="Gap Start Frame" value="38"/>
+          <Param header="0" name="Gap End Frame" value="40"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:25:49"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="51"/>
+          <Param header="0" name="Gap Start Frame" value="50"/>
+          <Param header="0" name="Gap End Frame" value="53"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:25:56"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="129"/>
+          <Param header="0" name="Gap Start Frame" value="128"/>
+          <Param header="0" name="Gap End Frame" value="131"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:26:01"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="134"/>
+          <Param header="0" name="Gap Start Frame" value="133"/>
+          <Param header="0" name="Gap End Frame" value="135"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:26:03"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="140"/>
+          <Param header="0" name="Gap Start Frame" value="138"/>
+          <Param header="0" name="Gap End Frame" value="143"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:26:50"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="229"/>
+          <Param header="0" name="Gap Start Frame" value="228"/>
+          <Param header="0" name="Gap End Frame" value="230"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:26:54"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="326"/>
+          <Param header="0" name="Gap Start Frame" value="323"/>
+          <Param header="0" name="Gap End Frame" value="330"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:26:59"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="344"/>
+          <Param header="0" name="Gap Start Frame" value="343"/>
+          <Param header="0" name="Gap End Frame" value="345"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory( All ):  lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:27:08"/>
+          <Param header="0" name="Trajectory" value="lHip"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:22"/>
+          <Param header="0" name="Trajectory" value="rHip"/>
+          <Param header="0" name="Frame" value="59"/>
+          <Param header="0" name="Gap Start Frame" value="47"/>
+          <Param header="0" name="Gap End Frame" value="72"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:40"/>
+          <Param header="0" name="Trajectory" value="rHip"/>
+          <Param header="0" name="Donor Trajectory" value="lHip"/>
+          <Param header="0" name="Gaps Filled" value="Filled 8 out of 8 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory:  rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:41"/>
+          <Param header="0" name="Trajectory" value="rHip"/>
+          <Param header="0" name="Donor Trajectory" value="lHip"/>
+          <Param header="0" name="Frame" value="162"/>
+          <Param header="0" name="Gap Start Frame" value="161"/>
+          <Param header="0" name="Gap End Frame" value="163"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:44"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Frame" value="84"/>
+          <Param header="0" name="Gap Start Frame" value="52"/>
+          <Param header="0" name="Gap End Frame" value="116"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:45"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Frame" value="226"/>
+          <Param header="0" name="Gap Start Frame" value="225"/>
+          <Param header="0" name="Gap End Frame" value="227"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline (Woltring) Filled Trajectory (All):  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:45"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:47"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Frame" value="244"/>
+          <Param header="0" name="Gap Start Frame" value="243"/>
+          <Param header="0" name="Gap End Frame" value="245"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:48"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Frame" value="244"/>
+          <Param header="0" name="Gap Start Frame" value="243"/>
+          <Param header="0" name="Gap End Frame" value="245"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:48"/>
+          <Param header="0" name="Trajectory" value="chest"/>
+          <Param header="0" name="Frame" value="244"/>
+          <Param header="0" name="Gap Start Frame" value="243"/>
+          <Param header="0" name="Gap End Frame" value="245"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:50"/>
+          <Param header="0" name="Trajectory" value="lWrist"/>
+          <Param header="0" name="Frame" value="56"/>
+          <Param header="0" name="Gap Start Frame" value="55"/>
+          <Param header="0" name="Gap End Frame" value="57"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  lWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:51"/>
+          <Param header="0" name="Trajectory" value="lWrist"/>
+          <Param header="0" name="Frame" value="56"/>
+          <Param header="0" name="Gap Start Frame" value="55"/>
+          <Param header="0" name="Gap End Frame" value="57"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  lWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:28:52"/>
+          <Param header="0" name="Trajectory" value="lWrist"/>
+          <Param header="0" name="Frame" value="56"/>
+          <Param header="0" name="Gap Start Frame" value="55"/>
+          <Param header="0" name="Gap End Frame" value="57"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Fill Gaps &amp; Filter Data" notes="">
+      <OperationSubType name="Delete Unlabeled Trajectories" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-07 15:30:24"/>
+          <Param header="0" name="Delete using Max Length" value="No"/>
+          <Param header="0" name="Max Length to Delete" value="25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="371"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Fully deleted: 8" value=""/>
+          <Param header="0" name="Partially deleted: 0" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  Raul:head" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:16"/>
+          <Param header="0" name="Label" value="Raul:head"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:chest" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:16"/>
+          <Param header="0" name="Label" value="Raul:chest"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rShoulder" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:17"/>
+          <Param header="0" name="Label" value="Raul:rShoulder"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rElbow" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:17"/>
+          <Param header="0" name="Label" value="Raul:rElbow"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:18"/>
+          <Param header="0" name="Label" value="Raul:rWrist"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lShoulder" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:20"/>
+          <Param header="0" name="Label" value="Raul:lShoulder"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lElbow" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:20"/>
+          <Param header="0" name="Label" value="Raul:lElbow"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lWrist" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:21"/>
+          <Param header="0" name="Label" value="Raul:lWrist"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:22"/>
+          <Param header="0" name="Label" value="Raul:rHip"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHip" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:23"/>
+          <Param header="0" name="Label" value="Raul:lHip"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rKnee" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:23"/>
+          <Param header="0" name="Label" value="Raul:rKnee"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lKnee" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:24"/>
+          <Param header="0" name="Label" value="Raul:lKnee"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rHeel" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:25"/>
+          <Param header="0" name="Label" value="Raul:rHeel"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lHeel" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:26"/>
+          <Param header="0" name="Label" value="Raul:lHeel"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:rToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:27"/>
+          <Param header="0" name="Label" value="Raul:rToe"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  Raul:lToe" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Nov-08 06:48:27"/>
+          <Param header="0" name="Label" value="Raul:lToe"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>
