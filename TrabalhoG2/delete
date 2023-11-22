@@ -11,10 +11,8 @@ dadospoint = read.csv('Sit_five02_PointDataChannels.csv')
 #Criando uma variável que irá representar cada captura dos pontos
 variavel_contagem <- seq(1, 1745)
 
-soma <- dadospoint$head.........................._X + dadospoint$head.........................._Y + dadospoint$head.........................._Z
-
 #Gerando gráfico de tempo percorrido entre sentar e levantar
-ggplot(dadospoint, aes(x = variavel_contagem, y = soma)) +
+ggplot(dadospoint, aes(x = variavel_contagem, y = head.........................._Z)) +
   geom_line(color = "black", size = 1) +
   geom_point(data = dadospoint, aes(x = 260, y = 1700, color = "Terminando de levantar"), size = 3, shape = 1) +
   geom_point(data = dadospoint, aes(x = 310, y = 1700, color = "Começando a sentar"), size = 3, shape = 8) +
