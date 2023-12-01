@@ -1,0 +1,86 @@
+---
+title: "Análise Biomecanica do Movimento de Spring"
+authors: "Joao Pedro, Victor Hugo, Enzo e Vinicius"
+date: "2023-11-25"
+output: pdf_document
+---
+
+# 1. Pré processamento dos dados
+
+## 1.1 Obtendo os arquivos.csv para análise
+
+Utilizar o script do arquivo "readc3d.py" para rodar no arquivo "Spring01.c3d" e obter os dois arquivos separados com as informações de movimento e força.
+
+## 1.2 Tratamento dos arquivos para rodar adequadamente no Rstudio.
+
+### 1.2.1 Alterando o arquivo "Spring01_PointDataChannels"
+
+Abrir o arquivo .csv no exel para alterar o nome das colunas, para que assim sejam reconhecidas mais facilmente na sintaxe do rStudio. Assim, a alteração feita foi que todos os 'espaços' existentes nos titulos de colunas foram removidos.
+
+### 1.2.2 Alterando o arquivo "Spring01_Datachannels"
+
+Para que este arquivo seja reconhecido e rode normalmente no Rstudio, as colunas sem titulo foram removidas e, apos isso, ja na plataforma foi usado um script para alterar de forma que a primeira linha das colunas se tornassem seu titulo.
+
+```{r}
+library(dplyr)
+library(readr)
+
+dados <- Spring01_AnalogDataChannels
+novo_nome <- as.character(dados[1, ])
+dados <- dados[-1, ]
+names(dados) <- novo_nome
+print(dados)
+```
+
+# 2. Análise de Movimento
+
+Para fazer a análise de movimento de acordo com o que vimos no artigo, decidimos utilizar como base a variação no espaço dos pontos "Hip" e "Shoulder" (representando o tronco e a cintura) ao longo dos tres eixos.\
+Primeiramente, fizemos graficos que mostravam a variação de posição ao longo do tempo individualmente para cada eixo de cada ponto análisado. Após isso, em uma segunda análise, geramos um gráfico de análise de movimento relativo aos pontos escolhidos de maneira tridimensional.
+
+## Análise individual dos eixos
+
+### Eixo X
+
+![](images/SHOULDER_X.png)
+
+![](images/HIP_X.png)
+
+### Eixo Y
+
+![](images/SHOULDER_Y.png)
+
+![](images/HIP_Y.png)
+
+### Eixo Z
+
+![](images/SHOULDER_Z.png)
+
+![](images/HIP_Z.png)
+
+## Análise Tridimensional de movimento
+
+![](images/WhatsApp%20Image%202023-12-01%20at%2010.20.01.jpeg)
+
+![](images/WhatsApp%20Image%202023-12-01%20at%2010.20.01%20(1).jpeg)
+
+# 3. Análise dos Vetores de Força
+
+Escolhemos abordar a análise dos vetores de força de acordo com a do movimento feita anteriormente; para isso, optamos por gerar gráficos de força independentes de cada eixo e análisar a variação da intensidade dos vetores.
+
+## Eixo X
+
+![](images/F1_X.png)
+
+![](images/F2_X.png)
+
+## Eixo Y
+
+![](images/FY_1.png)
+
+![](images/F2_Y.png)
+
+## Eixo Z
+
+![](images/F1_Z.png)
+
+![](images/F2_Z.png)
