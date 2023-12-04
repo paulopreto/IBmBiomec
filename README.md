@@ -34,3 +34,5 @@
 | p12 | 0.781 | 0.000 | 0.903 |
 
 * Continuar: extrair as coordenadas de tela em pixel para realizar a calibração 2D.
+
+  [https://docs.google.com/presentation/d/10IkidWHcMBpESH8UGjzCnEDtCg799_PoQxNPuVVnsBs/edit?usp=sharing]
